@@ -23,7 +23,7 @@ function GetArrayFromId($user_id)
 
 function GetArrayFromIdFromFile($user_id)
 {
-	$url = "user_id_$user_id.txt";
+	$url = "temp/user_id_$user_id.txt";
 		
 	$result = file_get_contents($url);
 		
